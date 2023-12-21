@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - FA.JustBlog.WebApp</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/FA.JustBlog.WebApp.styles.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+</head>
+<body>
+	@Html.Partial("_Header")
+
+	<header class="masthead" style="background-image: url('@Url.Content("~/assets/img/home-bg.jpg")')">
+		<div class="container position-relative px-4 px-lg-5">
+			<div class="row gx-4 gx-lg-5 justify-content-center">
+				<div class="col-md-10 col-lg-8 col-xl-7">
+					<div class="site-heading">
+						<h1>Just Blog</h1>
+						<span class="subheading">A Blog Theme by Start Bootstrap</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="container px-4 px-lg-5">
+		<main role="main" class="pb-3">
+			@RenderBody()
+		</main>
+	</div>
+
+	@Html.Partial("_Footer")
+
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+	<script src="~/js/scripts.js" asp-append-version="true"></script>
+	@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

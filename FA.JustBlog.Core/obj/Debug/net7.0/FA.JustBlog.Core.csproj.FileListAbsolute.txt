@@ -1,0 +1,14 @@
+D:\Learning Stuffs\Intern Assign\mockpj\FA.JustBlog_Team4\FA.JustBlog.Core\bin\Debug\net7.0\FA.JustBlog.Core.deps.json
+D:\Learning Stuffs\Intern Assign\mockpj\FA.JustBlog_Team4\FA.JustBlog.Core\bin\Debug\net7.0\FA.JustBlog.Core.runtimeconfig.json
+D:\Learning Stuffs\Intern Assign\mockpj\FA.JustBlog_Team4\FA.JustBlog.Core\bin\Debug\net7.0\FA.JustBlog.Core.dll
+D:\Learning Stuffs\Intern Assign\mockpj\FA.JustBlog_Team4\FA.JustBlog.Core\bin\Debug\net7.0\FA.JustBlog.Core.pdb
+D:\Learning Stuffs\Intern Assign\mockpj\FA.JustBlog_Team4\FA.JustBlog.Core\obj\Debug\net7.0\FA.JustBlog.Core.csproj.AssemblyReference.cache
+D:\Learning Stuffs\Intern Assign\mockpj\FA.JustBlog_Team4\FA.JustBlog.Core\obj\Debug\net7.0\FA.JustBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning Stuffs\Intern Assign\mockpj\FA.JustBlog_Team4\FA.JustBlog.Core\obj\Debug\net7.0\FA.JustBlog.Core.AssemblyInfoInputs.cache
+D:\Learning Stuffs\Intern Assign\mockpj\FA.JustBlog_Team4\FA.JustBlog.Core\obj\Debug\net7.0\FA.JustBlog.Core.AssemblyInfo.cs
+D:\Learning Stuffs\Intern Assign\mockpj\FA.JustBlog_Team4\FA.JustBlog.Core\obj\Debug\net7.0\FA.JustBlog.Core.csproj.CoreCompileInputs.cache
+D:\Learning Stuffs\Intern Assign\mockpj\FA.JustBlog_Team4\FA.JustBlog.Core\obj\Debug\net7.0\FA.JustBlog.Core.dll
+D:\Learning Stuffs\Intern Assign\mockpj\FA.JustBlog_Team4\FA.JustBlog.Core\obj\Debug\net7.0\refint\FA.JustBlog.Core.dll
+D:\Learning Stuffs\Intern Assign\mockpj\FA.JustBlog_Team4\FA.JustBlog.Core\obj\Debug\net7.0\FA.JustBlog.Core.pdb
+D:\Learning Stuffs\Intern Assign\mockpj\FA.JustBlog_Team4\FA.JustBlog.Core\obj\Debug\net7.0\FA.JustBlog.Core.genruntimeconfig.cache
+D:\Learning Stuffs\Intern Assign\mockpj\FA.JustBlog_Team4\FA.JustBlog.Core\obj\Debug\net7.0\ref\FA.JustBlog.Core.dll

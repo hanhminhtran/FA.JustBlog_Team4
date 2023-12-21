@@ -1,0 +1,19 @@
+﻿@model FA.JustBlog.Website.Models.CategoryVm
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container-fluid">
+    <div class="col-12">
+        <h1>@Html.DisplayFor(model => model.Name) Category</h1>
+        <hr class="my-4"/>
+        <p>Category ID: @Html.DisplayFor(model => model.Id)</p>
+        <p>Url Slug: <a href="#">@Html.DisplayFor(model => model.UrlSlug)</a></p>
+        <p> @Html.DisplayFor(model => model.Description)</p>
+        </div>
+    <hr />
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Delete", "Delete", new { id = Model.Id }, new { onclick = "return confirm('Are you sure?')" }) |
+    <a asp-action="Index">Back to List</a>
+</div>

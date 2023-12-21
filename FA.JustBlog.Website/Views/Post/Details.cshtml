@@ -1,0 +1,42 @@
+﻿@model FA.JustBlog.Website.Models.PostVm
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container position-relative px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-7">
+            <div class="post-heading">
+                <h1>@Html.DisplayFor(model => model.Title)</h1>
+                <h2 class="subheading">@Html.DisplayFor(model => model.ShortDescription)</h2>
+                <span class="meta">
+                    Posted on @Html.DisplayFor(model => model.PostedOn)
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<article class="mb-4">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <p>@Html.DisplayFor(model => model.PostContent)</p>
+
+                @* <p>@Html.DisplayNameFor(model => model.CategoryName)</p> *@
+                @* <p>@Html.DisplayNameFor(model => model.TagName)
+                @Html.DisplayFor(model => model.ViewCount)
+                @Html.DisplayNameFor(model => model.RateCount)
+                @Html.DisplayNameFor(model => model.TotalRate)
+                </p> 
+                *@
+            </div>
+        </div>
+    </div>
+</article>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Delete", "Delete", new { id = Model.Id }, new { onclick = "return confirm('Are you sure?')" }) |
+    <a asp-action="Index">Back to List</a>
+</div>

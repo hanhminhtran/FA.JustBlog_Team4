@@ -1,0 +1,33 @@
+﻿@model IEnumerable<FA.JustBlog.Website.Models.PostVm>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-7">
+            <div class="text-center">
+                <h1 class="display-4">Welcome</h1>
+                <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+            </div>
+
+            <p>
+                <a asp-action="Create">Create New Post</a>
+            </p>
+
+            @foreach (var item in Model)
+            {
+                <hr class="my-4" />
+                <div class="post-preview">
+                    <h2 class="post-title">@Html.ActionLink(item.Title, "Details", new { id = item.Id })</h2>
+                    <h3 class="post-subtitle">@Html.DisplayFor(modelItem => item.ShortDescription)</h3>
+                    <p class="post-meta">
+                        Posted on @Html.DisplayFor(modelItem => item.PostedOn)
+                    </p>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
